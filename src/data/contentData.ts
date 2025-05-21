@@ -637,17 +637,17 @@ export const contentData = [
     id: 'section8',
     title: 'Disclaimer Statement',
     content: `
-      <p>DISCLAIMER: DIGITAL PERSONAL DATA PROTECTION ACT (DPDPA) NOTES
-      The information contained in these notes regarding the Digital Personal Data Protection Act, 2023 ("DPDPA") is provided for general informational purposes only. These notes represent the author's understanding and interpretation of the DPDPA as of 21st May 2025, and should not be construed as legal advice or a definitive analysis of the legislation.
-      The DPDPA is India's comprehensive data protection framework that governs the processing of digital personal data. The implementation details and interpretations of this Act may evolve through subsequent rules, notifications, and judicial decisions.
-      Recipients are advised to:
+      <p>DISCLAIMER: DIGITAL PERSONAL DATA PROTECTION ACT (DPDPA) NOTES</p>
+      <p>The information contained in these notes regarding the Digital Personal Data Protection Act, 2023 ("DPDPA") is provided for general informational purposes only. These notes represent the author's understanding and interpretation of the DPDPA as of 21st May 2025, and should not be construed as legal advice or a definitive analysis of the legislation.
+      The DPDPA is India's comprehensive data protection framework that governs the processing of digital personal data. The implementation details and interpretations of this Act may evolve through subsequent rules, notifications, and judicial decisions.</p>
+      <p>Recipients are advised to:</p>
       
-      Consider these notes as a preliminary reference only
+      <p>Consider these notes as a preliminary reference only
       Consult qualified legal professionals for specific advice related to DPDPA compliance
       Refer to the official Act, rules, and guidelines published by the Ministry of Electronics and Information Technology (MeitY)
-      Be aware that implementation timelines and specific provisions may be subject to change
+      Be aware that implementation timelines and specific provisions may be subject to change</p>
       
-      The author makes reasonable efforts to ensure the accuracy of the information but cannot guarantee completeness or currency. No liability is accepted for any loss or damage that may arise from reliance on these notes.
+      <p>The author makes reasonable efforts to ensure the accuracy of the information but cannot guarantee completeness or currency. No liability is accepted for any loss or damage that may arise from reliance on these notes.
       This document does not establish any professional-client relationship, and redistribution should maintain this disclaimer intact.</p>
       
       <p>For official information, please visit: https://www.meity.gov.in/</p>
