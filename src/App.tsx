@@ -6,14 +6,10 @@ import {
   faBook, 
   faInfoCircle, 
   faArrowLeft, 
-  faChevronRight,
   faLightbulb,
   faFileAlt,
   faShieldAlt,
   faUserShield,
-  faExchangeAlt,
-  faGavel,
-  faExclamationTriangle,
   faClipboardList,
   faMobileAlt
 } from '@fortawesome/free-solid-svg-icons';
