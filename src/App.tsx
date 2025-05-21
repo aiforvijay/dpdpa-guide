@@ -292,6 +292,15 @@ function App() {
               >
                 Increase Text Size
               </button>
+              <button 
+                className="accessibility-button"
+                onClick={() => {
+                  const currentSize = parseInt(window.getComputedStyle(document.body).fontSize);
+                  document.body.style.fontSize = (currentSize - 1) + 'px';
+                }}
+              >
+                Decrease Text Size
+              </button>              
             </div>
           </footer>
           
