@@ -632,7 +632,7 @@ export const contentData = [
       
       <p>Please refer to the dedicated <a href="#illustrations" onClick="window.location.hash='#illustrations'; setTimeout(() => document.querySelector('[aria-controls=illustrations]').click(), 100); return false;" style="font-weight: bold; font-size: 1.1em;">Illustrations tab</a> for all examples.</p>
     `
-  }
+  },
   {
     id: 'section8',
     title: 'Disclaimer Statement',
