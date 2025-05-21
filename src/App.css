@@ -1,0 +1,342 @@
+/* Main color scheme - Blue Theme */
+:root {
+  --primary-blue: #e6f2ff;
+  --secondary-blue: #b3d9ff;
+  --accent-color: #3385ff;
+  --text-color: #333333;
+  --header-color: #0066cc;
+  --link-color: #0052cc;
+  --link-hover: #003d99;
+  --white: #ffffff;
+  --light-gray: #f8f8f8;
+  --button-gradient: linear-gradient(to right, #4d94ff, #0066cc);
+  --button-shadow: 0 4px 6px rgba(0, 102, 204, 0.2);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--primary-blue);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Senior-friendly larger text */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.app-header {
+  background-color: var(--secondary-blue);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to right, #4d94ff, #0066cc);
+  color: white;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.app-subtitle {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Button Grid for Header 2 */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.section-button {
+  background: var(--button-gradient);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--button-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+}
+
+.section-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
+}
+
+.section-button.active {
+  background: linear-gradient(to right, #003d99, #0052cc);
+  transform: translateY(-2px);
+}
+
+.section-button-icon {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+/* Back button */
+.back-button {
+  background-color: var(--secondary-blue);
+  color: var(--header-color);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.back-button-icon {
+  margin-right: 8px;
+}
+
+/* Content area */
+.content-area {
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.content-title {
+  color: var(--header-color);
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--secondary-blue);
+}
+
+/* Subsection buttons */
+.subsection-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.subsection-button {
+  background-color: var(--secondary-blue);
+  color: var(--header-color);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subsection-button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.subsection-button.active {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Subsubsection buttons */
+.subsubsection-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 15px 0;
+}
+
+.subsubsection-button {
+  background-color: var(--light-gray);
+  color: var(--text-color);
+  border: 1px solid var(--secondary-blue);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subsubsection-button:hover {
+  background-color: var(--secondary-blue);
+  color: var(--header-color);
+}
+
+.subsubsection-button.active {
+  background-color: var(--secondary-blue);
+  color: var(--header-color);
+  font-weight: bold;
+}
+
+/* Content display */
+.content-display {
+  background-color: var(--light-gray);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Illustrations section */
+.illustration-card {
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--accent-color);
+}
+
+.illustration-title {
+  color: var(--header-color);
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.illustration-content {
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.highlight-illustration {
+  animation: highlight-pulse 2s ease;
+}
+
+@keyframes highlight-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(51, 133, 255, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(51, 133, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(51, 133, 255, 0); }
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: var(--secondary-blue);
+  border-radius: 12px;
+  color: var(--text-color);
+}
+
+/* Accessibility buttons */
+.accessibility-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.accessibility-button {
+  background-color: var(--white);
+  color: var(--header-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.accessibility-button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+  
+  .button-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  
+  .section-button {
+    padding: 10px;
+    font-size: 14px;
+    min-height: 60px;
+  }
+  
+  .subsection-button {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+  
+  .subsubsection-button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .content-area {
+    padding: 15px;
+  }
+}
+
+/* Accessibility improvements for senior citizens */
+.high-contrast-mode {
+  --text-color: #000000;
+  --header-color: #000066;
+  --link-color: #0000EE;
+  --link-hover: #000099;
+  --primary-blue: #ffffff;
+  --secondary-blue: #ccccff;
+  --accent-color: #0000cc;
+  --button-gradient: linear-gradient(to right, #0000cc, #000066);
+}
+
+/* Focus indicators for keyboard navigation */
+:focus {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
