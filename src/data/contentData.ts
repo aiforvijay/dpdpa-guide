@@ -612,15 +612,34 @@ export const contentData = [
   },
   {
     id: 'section6',
-    title: '6. Structuring Content for Mobile Compatibility',
+    title: '6. Templates',
     content: `
-      <p>To ensure the content is mobile-compatible for easy access during the presentation, the information needs to be organized logically with clear
-      headings (using H1, H2, H3 tags), subheadings, and concise paragraphs. Bullet points and numbered lists should be used extensively to present
-      key data points and obligations in a scannable format.</p>
+      <p>*These templates are for illustrative purposes only</P>
+      <p>Illustrative Consent Request Form</p>
+      <p>(Section 5 of Digital Personal Data Protection Act, 2023)</p>
       
-      <p>A summary table of key compliance requirements for Data Fiduciaries and another table outlining practicing opportunities for Chartered Accountants
-      can be included for quick reference. The language should be clear and avoid unnecessary jargon, with brief explanations provided for technical terms
-      where needed. Any images should be optimized for mobile loading.</p>
+      <p>In accordance with the provisions of Section 6 of Digital Personal Data Protection Act, 2023 the information specified under Part I of this Consent Request Form is needed for the purposes of Goods or Services specified in Part II of this Consent Request Form.</p>
+      <p>As a Data Principle, that is your good self, you have following rights, the details of which are provided in detail on our website at the following link: www.xyzdatafiduciary.com, in relation to information provided by you in Part I of this Consent Request Form.</p>
+      <p>1.	Right to access information about your personal data</p>
+      <p>2.	Right to Correction and erasure of your personal data</p>
+      <p>3.	Right of Grievance Redressal</p>
+      <p>4.	Right to Nominate</p>
+      <p>You may revoke your consent any time by writing to consent-trackingxxx@xyzdatafiduciary.com. However, please note that, if your request for goods or services is under process, your request for revoking the consent will be applied only after completion of such process.
+      Further any time during or after processing your requirement, if you have any complaints on the method of processing your information including storing, use, disclosure, sharing, transferring etc., you may contact Mr. / Mrs. ABCD (Data Protection Officer ) at his E-mail : abcddpo@xyzdatafiduciary.com. In case your complaint is not resolved by the DPO, you may file a complaint with Data Protection Board of India by filing Form “XX” at the designated website of DPBI i.e., www.xxdxxpxxbxxixx.gov.in</p>
+      
+      <p>                                      Part I                                	</P>
+      <p>                          (Data Principle Information)                      	</p>
+      <p>                                                                            	</p>
+      <p>	Full Name (As per Aadhaar Card)		:	                       	                </p>
+      <p>	Mobile Number (Registered In your name)	:				                            </p>
+      <p>	Email ID (Registered & used by you)		:			                                </p>
+      <p>	Last Four Digits of Your Aadhaar Card		:			                              </p>
+      <p>										                                                          </p>
+      <p>                                      Part II 				                        </p>
+      <p>                           (Goods of Services Required)			                </p>
+      
+      <p>	Annexure 1 (List of Goods Required)					                                </p>
+      <p>	Annexure 2 (List of Services Required)					                            </p>
     `
   },
   {
